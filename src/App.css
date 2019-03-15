@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+}
+
+
+label {
+    padding: 12px!important;
+}
+
+.selector {
+    min-width: 100px;
+}
