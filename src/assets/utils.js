@@ -52,6 +52,23 @@ export function compare(a, b) {
     return comparison;
 }
 
+/*
+Sort on cityname
+ */
+export function compareCities(a, b) {
+    console.log(a);
+
+    const valueA = a.city_ascii.toUpperCase();
+    const valueB = b.city_ascii.toUpperCase();
+
+    let comparison = 0;
+    if (valueA > valueB) {
+        comparison = 1;
+    } else if (valueA < valueB) {
+        comparison = -1;
+    }
+    return comparison;
+}
 
 
 /*
